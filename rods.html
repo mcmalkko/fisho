@@ -17,46 +17,70 @@
 <body>
 
     <header>
-        <h1>Fishing Gear Store</h1>
+        <h1 class="header-text">Rod Collection</h1>
     </header>
 
-    <nav>
+    <nav id="nav">
         <a href="index.html">Home</a>
         <a href="rods.html"> <u>Rods</u></a>
         <a href="reels.html">Reels</a>
         <a href="lures.html">Lures</a>
         <a href="accessories.html">Accessories</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="contact.html">About us and Contacts</a>
     </nav>
+    <button id="menuToggle" class="menu-toggle">&#9776; Menu</button>
 
     <main class="page-content">
-        <!-- Rods Page Content -->
+        <section class="salesintro">
         <h2>Explore Our Fishing Rod Collection</h2>
         <p>Discover a variety of high-quality fishing rods designed for different fishing styles and preferences.</p>
         <h3>Featured Rods</h3>
-
-        <section>
-            <!-- Add your rod product listings here -->
+        </sections>
+        <section class="sales-list">
+            <div class="item-container">
+                <img class="images" src="rods/rod3" alt="Premium Fishing Rod">
+                <p>Premium Fishing Rod - Model X</p>
+                <p>$29.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="rods/rod4" alt="Premium Fishing Rod">
+                <p>Premium Fishing Rod - Model Z</p>
+                <p>$429.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="rods/rod5" alt="Premium Fishing Rod">
+                <p>Premium Fishing Rod - Model Y</p>
+                <p>$159.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="rods/rod6.jpg" alt="Premium Fishing Rod">
+                <p>Premium Fishing Rod - Model Pro</p>
+                <p>$1266.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
             <div class="item-container">
                 <img class="images" src="rods/rod1.jfif" alt="Premium Fishing Rod">
                 <p>Premium Fishing Rod - Model A</p>
                 <p>$129.99</p>
-                <button>Add to Cart</button>
+                <button class="buy-button">Add to Cart</button>
             </div>
-
             <div class="item-container">
                 <img class="images" src="rods/rod2.jfif" alt="Special Edition Casting Rod">
                 <p>Special Edition Casting Rod - Model B</p>
                 <p>$149.99</p>
-                <button>Add to Cart</button>
+                <button class="buy-button">Add to Cart</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy;Made by Marko and Dis-moi</p>
+        <p>&copy;Made by Marko and Dmitry</p>
     </footer>
-
+    <div id="overlay"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -6,48 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Fishing Gear Store</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .page-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .contact-form {
-            margin-top: 20px;
-        }
-
-        .contact-form label {
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-        }
-    </style>
 </head>
 
 <body>
 
     <header>
-        <h1>Fishing Gear Store</h1>
+        
+        <h1 class="header-text">Credits</h1>
     </header>
 
-    <nav>
+    <nav id="nav">
         <a href="index.html">Home</a>
         <a href="rods.html">Rods</a>
         <a href="reels.html">Reels</a>
         <a href="lures.html">Lures</a>
         <a href="accessories.html">Accessories</a>
-        <a href="contact.html"><u>Contact Us</u></a>
+        <a href="contact.html">About us and Contacts</a>
     </nav>
+    <button id="menuToggle" class="menu-toggle">&#9776; Menu</button>
 
     <main class="page-content">
-        <!-- Contact Page Content -->
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Hi there! We are Marko Yanovskyi and Dmitry Ryaboshapka, students of University of Lille.</p>
+            <p>Marko came to Lille for the Erasmus program, and as part of it, he's taking the course called Concepcion de site web.</p>
+            <p>Dmitry is a full-time student here at the University of Lille. We teamed up to create this website.</p>
+            <h2>Special Thanks</h2>
+            <p>A big part of this website was created with the help of SuperSimpleDev and his 6-hour course on HTML and CSS.</p>
+            <p>SuperSimpleDev not only helped us grasp the basics of building websites but also taught us how to upload them to Git pages and edit them efficiently. Their guidance on copying styles from other websites was invaluable.</p>
+        </section>
+
         <h2>Contact Fishing Gear Store</h2>
         <p>Have questions or inquiries? Reach out to us using the form below or through our contact information.</p>
 
@@ -67,10 +55,8 @@
         </div>
     </main>
 
-    <footer>
-        <p>&copy;Made by Marko and Dis-moi</p>
-    </footer>
-
+    <div id="overlay"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -6,57 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fishing Accessories - Fishing Gear Store</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .page-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-    </style>
 </head>
 
 <body>
 
     <header>
-        <h1>Fishing Gear Store</h1>
+        <h1 class="header-text">Fishing Accessories</h1>
     </header>
 
-    <nav>
+    <nav id="nav">
         <a href="index.html">Home</a>
         <a href="rods.html">Rods</a>
         <a href="reels.html">Reels</a>
         <a href="lures.html">Lures</a>
         <a href="accessories.html"><u>Accessories</u></a>
-        <a href="contact.html">Contact Us</a>
+        <a href="contact.html">About us and Contacts</a>
     </nav>
+    <button id="menuToggle" class="menu-toggle">&#9776; Menu</button>
 
     <main class="page-content">
-        <!-- Accessories Page Content -->
+        <section class="salesintro">
         <h2>Discover Essential Fishing Accessories</h2>
         <p>Explore our collection of fishing accessories designed to complement your fishing gear and enhance your overall fishing experience.</p>
         <h3>Featured Accessories</h3>
-
-        <section>
-            <!-- Add your accessory product listings here -->
-            <div class="item-container">
+        </section>
+        <section class="sales-list">
+            <div id="accessories1" class="item-container">
                 <img class="images" src="accessories/accessories1.jfif" alt="Tackle Box Organizer">
-                <p>Tackle Box Organizer - Model A</p>
-                <p>$19.99</p>
-                <button>Add to Cart</button>
+                <p>Tackle Box Organizer - Model Y</p>
+                <p>$197.99</p>
+                <button class="buy-button">Add to Cart</button>
             </div>
-
+            <div class="item-container">
+                <img class="images" src="accessories/accessories6" alt="Tackle Box Organizer">
+                <p>Tackle Box Organizer - Model X</p>
+                <p>$219.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="accessories/accessories5" alt="Tackle Box Organizer">
+                <p>Tackle Box Organizer - Model S</p>
+                <p>$194.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="accessories/accessories4" alt="Tackle Box Organizer">
+                <p>Tackle Box Organizer - Model A</p>
+                <p>$129.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img  class="images" src="accessories/accessories3" alt="Fishing Hat with UV Protection">
+                <p>Fishing Hat with UV Protection - Model PRO MAX</p>
+                <p>$143.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
             <div class="item-container">
                 <img  class="images" src="accessories/accessories2.jfif" alt="Fishing Hat with UV Protection">
                 <p>Fishing Hat with UV Protection - Model B</p>
                 <p>$14.99</p>
-                <button>Add to Cart</button>
+                <button class="buy-button">Add to Cart</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy;Made by Marko and Dis-moi</p>
+        <p>&copy;Made by Marko and Dmitry</p>
     </footer>
-
+    <div id="overlay"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -17,45 +17,70 @@
 <body>
 
     <header>
-        <h1>Fishing Gear Store</h1>
+        <h1 class="header-text">Reel Collection</h1>
     </header>
 
-    <nav>
+    <nav id="nav">
         <a href="index.html">Home</a>
         <a href="rods.html">Rods</a>
         <a href="reels.html"> <u>Reels</u></a>
         <a href="lures.html">Lures</a>
         <a href="accessories.html">Accessories</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="contact.html">About us and Contacts</a>
     </nav>
+    <button id="menuToggle" class="menu-toggle">&#9776; Menu</button>
 
     <main class="page-content">
-        <!-- Reels Page Content -->
-        <h2>Explore Our Fishing Reel Collection</h2>
-        <p>Discover high-performance fishing reels designed for various fishing techniques and preferences.</p>
-        <h3>Featured Reels</h3>
-        <section>
-            <!-- Add your reel product listings here -->
+        <section class="salesintro">
+            <h2>Explore Our Fishing Reel Collection</h2>
+            <p>Discover high-performance fishing reels designed for various fishing techniques and preferences.</p>
+            <h3>Featured Reels</h3>
+        </section>
+        <section class="sales-list">
+            <div class="item-container">
+                <img class="images" src="reels/reel3.jpg" alt="Advanced Spinning Reel">
+                <p>Advanced Spinning Reel - Model Y</p>
+                <p>$89.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="reels/reel4.jpg" alt="Advanced Spinning Reel">
+                <p>Advanced Spinning Reel - Model MAX PRO</p>
+                <p>$689.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="reels/reel5.jpg" alt="Advanced Spinning Reel">
+                <p>Advanced Spinning Reel - Model X</p>
+                <p>$859.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="reels/reel6.jpg" alt="Advanced Spinning Reel">
+                <p>Advanced Spinning Reel - Model V</p>
+                <p>$289.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
             <div class="item-container">
                 <img class="images" src="reels/reel1.jfif" alt="Advanced Spinning Reel">
-                <p>Advanced Spinning Reel - Model X</p>
-                <p>$89.99</p>
-                <button>Add to Cart</button>
+                <p>Advanced Spinning Reel - Model S</p>
+                <p>$839.99</p>
+                <button class="buy-button">Add to Cart</button>
             </div>
-
             <div class="item-container">
                 <img class="images" src="reels/reel2.jfif" alt="Baitcasting Reel">
                 <p>Baitcasting Reel - Model Y</p>
                 <p>$109.99</p>
-                <button>Add to Cart</button>
+                <button class="buy-button">Add to Cart</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy;Made by Marko and Dis-moi</p>
+        <p>&copy;Made by Marko and Dmitry</p>
     </footer>
-
+    <div id="overlay"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>

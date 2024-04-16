@@ -17,46 +17,69 @@
 <body>
 
     <header>
-        <h1>Fishing Gear Store</h1>
+        <h1 class="header-text">Lure Collection</h1>
     </header>
 
-    <nav>
+    <nav id="nav">
         <a href="index.html">Home</a>
         <a href="rods.html">Rods</a>
         <a href="reels.html">Reels</a>
         <a href="lures.html"><u>Lures</u></a>
         <a href="accessories.html">Accessories</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="contact.html">About us and Contacts</a>
     </nav>
-
+    <button id="menuToggle" class="menu-toggle">&#9776; Menu</button>
     <main class="page-content">
-        <!-- Lures Page Content -->
+        <section class="salesintro">
         <h2>Explore Our Fishing Lure Collection</h2>
         <p>Enhance your fishing experience with our diverse selection of high-quality fishing lures suitable for various fish species.</p>
         <h3>Featured Lures</h3>
-
-        <section>
-            <!-- Add your lure product listings here -->
+        </section>
+        <section class="sales-list">
+            <div class="item-container">
+                <img class="images" src="lures/lure3" alt="Vibrant Crankbait">
+                <p>Vibrant Crankbait - Model S</p>
+                <p>$47.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="lures/lure4" alt="Vibrant Crankbait">
+                <p>Vibrant Crankbait - Model MAX PRO</p>
+                <p>$37.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="lures/lure5" alt="Vibrant Crankbait">
+                <p>Vibrant Crankbait - Model Y</p>
+                <p>$57.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img class="images" src="lures/lure6" alt="Vibrant Crankbait">
+                <p>Vibrant Crankbait - Model V</p>
+                <p>$27.99</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
             <div class="item-container">
                 <img class="images" src="lures/lure1.jfif" alt="Vibrant Crankbait">
                 <p>Vibrant Crankbait - Model A</p>
                 <p>$7.99</p>
-                <button>Add to Cart</button>
+                <button class="buy-button">Add to Cart</button>
             </div>
-
             <div class="item-container">
                 <img class="images" src="lures/lure2.jfif" alt="Soft Plastic Worms">
                 <p>Soft Plastic Worms - Model B</p>
                 <p>$5.99</p>
-                <button>Add to Cart</button>
+                <button class="buy-button">Add to Cart</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy;Made by Marko and Dis-moi</p>
+        <p>&copy;Made by Marko and Dmitry</p>
     </footer>
-
+    <div id="overlay"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>
